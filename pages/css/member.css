@@ -1,0 +1,77 @@
+body{
+  font-family:Microsoft JhengHei;
+}
+
+#dialog{
+  display: none;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  margin:0px;
+  background-color: #000000;
+  z-index: 1;
+  text-align: center;
+}
+#msg{  
+  position:absolute;/*
+  top:100px;*/
+  background-color:#F7F8FA;
+  width:400px;
+  z-index:3;
+  border:30px solid transparent;
+  border-radius: 20px;
+  font-family:Microsoft JhengHei;
+  margin-top: -100px;
+  box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.8);
+}
+#msg>div>p,input{
+  margin-top: 10px;
+}
+#msg>i{
+  position: absolute;
+  cursor: pointer;
+}
+#msg>div{
+  padding: 10px;
+}
+#msg>div>#img{
+  width: 100%;
+}
+#newconfirm>input{
+  color: #444444;
+  background: #F3F3F3;
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 12pt;
+  outline: none;
+}
+#newconfirm>input:hover{
+  border: 1px #C6C6C6 solid;
+  box-shadow: 1px 1px 1px #EAEAEA;
+  color: #333333;
+  background: #F7F7F7;
+}
+#newconfirm>input:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+#msgclose{
+  position: absolute;
+  cursor: pointer;
+}
+#newconfirm{
+  text-align: center;
+  margin-top: 160px;
+}
+.edit{
+  cursor: pointer;
+}
+.delete{
+  cursor: pointer;
+}
+
+.poptext p{
+  font-size: 18px;
+}
